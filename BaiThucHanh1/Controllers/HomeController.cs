@@ -1,8 +1,8 @@
-﻿using BaiThucHanh1.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using Web_ThucHanh1.Models;
 
-namespace BaiThucHanh1.Controllers
+namespace Web_ThucHanh1.Controllers
 {
     public class HomeController : Controller
     {

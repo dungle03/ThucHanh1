@@ -1,4 +1,4 @@
-namespace BaiThucHanh1.Models
+namespace Web_ThucHanh1.Models
 {
     public class ErrorViewModel
     {
