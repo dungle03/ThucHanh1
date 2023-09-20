@@ -1,4 +1,4 @@
-﻿namespace Web_ThucHanh1.Models
+﻿namespace BaiThucHanh1.Models
 {
     public enum Gender
     {

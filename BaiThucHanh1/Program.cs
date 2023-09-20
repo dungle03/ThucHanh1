@@ -1,12 +1,7 @@
-using Web_ThucHanh1.Services.Interfaces;
-using Web_ThucHanh1.Services;
-using StudentManagement.Services;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddTransient<IBufferedFileUploadService, BufferedFileUploadLocalService>();
 
 var app = builder.Build();
 

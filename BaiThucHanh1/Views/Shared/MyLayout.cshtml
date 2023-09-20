@@ -7,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Dashboard - Admin</title>
-    <link href="~/css/style.css" rel="stylesheet" />
+    <link href="~/css/styles.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 </head>
 <body class="sb-nav-fixed">
@@ -21,9 +21,7 @@
         <!-- Begin Right content -->
         <div id="layoutSidenav_content">
             <!-- Begin Main -->
-            <main>
-                @RenderBody()
-            </main>
+            @RenderBody()
             <!-- End Main -->
             <!-- Begin Footer -->
             <partial name="Footer" />
@@ -31,7 +29,7 @@
         </div>
         <!-- End Right content -->
     </div>
-    <script src="~/js/script.js"></script>
-    @RenderSection("Scripts", required:false);
+    <script src="~/js/scripts.js"></script>
+    @RenderSection("Scripts", required: false);
 </body>
 </html>

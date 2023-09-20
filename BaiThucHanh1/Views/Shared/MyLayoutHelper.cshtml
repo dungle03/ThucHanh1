@@ -1,9 +1,4 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -12,7 +7,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Dashboard - Admin</title>
-    <link href="~/css/style.css" rel="stylesheet" />
+    <link href="~/css/styles.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 </head>
 <body class="sb-nav-fixed">
@@ -21,14 +16,14 @@
     <!-- End Top nav -->
     <div id="layoutSidenav">
         <!-- Begin Left menu -->
-        @await Component.InvokeAsync("Render");
+        <div id="layoutSidenav">
+            @await Component.InvokeAsync("Render");
+        </div>
         <!-- End Left menu -->
         <!-- Begin Right content -->
         <div id="layoutSidenav_content">
             <!-- Begin Main -->
-            <main>
-                @RenderBody()
-            </main>
+            @RenderBody()
             <!-- End Main -->
             <!-- Begin Footer -->
             <partial name="Footer" />
@@ -36,7 +31,8 @@
         </div>
         <!-- End Right content -->
     </div>
-    <script src="~/js/script.js"></script>
-    @RenderSection("Scripts", required:false);
+    <script src="~/js/scripts.js"></script>
+    @RenderSection("Scripts", required: false);
 </body>
 </html>
+
