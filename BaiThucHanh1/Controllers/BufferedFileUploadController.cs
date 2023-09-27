@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Web_ThucHanh1.Services.Interfaces;
+using BaiThucHanh1.Services.Interfaces;
 
 namespace StudentManagement.Controllers
 {

@@ -1,4 +1,4 @@
-﻿namespace Web_ThucHanh1.Services.Interfaces
+﻿namespace BaiThucHanh1.Services.Interfaces
 {
     public interface IBufferedFileUploadService
     {

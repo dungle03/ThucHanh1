@@ -1,6 +1,6 @@
-﻿using Web_ThucHanh1.Services.Interfaces;
+﻿using BaiThucHanh1.Services.Interfaces;
 
-namespace StudentManagement.Services
+namespace BaiThucHanh1.Services
 {
     public class BufferedFileUploadLocalService : IBufferedFileUploadService
     {
@@ -8,10 +8,10 @@ namespace StudentManagement.Services
         {
             string path = "";
             try
-            {
+            {   
                 if (file.Length > 0)
                 {
-                    path = Path.GetFullPath(Path.Combine(Environment.CurrentDirectory, "wwwroot", "UploadedFiles"));
+                    path = Path.GetFullPath(Path.Combine(Environment.CurrentDirectory,"wwwroot", "UploadedFiles"));
                     if (!Directory.Exists(path))
                     {
                         Directory.CreateDirectory(path);
